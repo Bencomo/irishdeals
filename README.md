@@ -2,6 +2,7 @@ Django Milestone project created by Jonathan Bencomo for the Code Institute, Dub
 
 [![Build Status](https://travis-ci.org/Bencomo/irishdeals.svg?branch=master)](https://travis-ci.org/Bencomo/irishdeals)
 
+
 # Project guidelines
 
  - Build a web app that fulfills some actual (or imagined) real-world need. This can be of your choosing and may be domain specific.
