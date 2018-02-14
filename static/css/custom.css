@@ -64,3 +64,39 @@ caption p {
 .product-description {
     min-height: 40px;
 }
+
+
+  /*-------SHARE ICONS-------*/
+  .follow-us-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .follow-us {
+    font-size: 32px;
+    color: #000000;
+  }
+
+  .social-icon {
+    padding-top: 6px;
+    font-size: 16px;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    color: #513d28;
+    margin: 5px;
+  }
+
+  a.social-icon:hover,
+  a.social-icon:active,
+  a.social-icon:focus {
+    text-decoration: none;
+    color: #000000;
+    border-color: #000000;
+  }
+
+  .social {
+    padding-top: 450px;
+  }

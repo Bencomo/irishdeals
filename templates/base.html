@@ -33,7 +33,7 @@
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     {% if user.is_authenticated %}
-                    <li><a href="{% url 'profile' %}"><i class="fa fa-user"></i> Profile</a></li>
+                    <li><a href="{% url 'profile' %}"><i class="fa fa-user"></i> My Profile</a></li>
                     <li><a href="{% url 'logout' %}"><i class="fa fa-sign-out"></i> Log Out</a></li>
                     {% else %}
                     <li><a href="{% url 'register' %}"><i class="fa fa-user-plus"></i> Register</a></li>
@@ -67,6 +67,21 @@
         </div>
         {% block content %} {% endblock %}
     </div>
+    
+    <section class="social-form">
+        <div class="container follow-us-container">
+            <div class="text-center follow-us">
+                <h3>Share this recipe!</h3>
+            </div>
+            <br />
+            <div class="text-center">
+                <a class="fa fa-facebook social-icon" style="cursor: pointer;" onclick="window.open('https://facebook.com/share?', '_blank', 'location=yes,height=570,width=1000,scrollbars=yes,status=yes');"></a>
+                <a class="fa fa-twitter social-icon" style="cursor: pointer;" onclick="window.open('https://twitter.com/share?', '_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes');"></a>
+                <a class="fa fa-google-plus social-icon" style="cursor: pointer;" onclick="window.open('https://plus.google.com/share?', '_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes');"></a>
+            </div>
+        </div>
+    </section>
+    
     <footer>
         <div class="container">
             <p>A project made by Jonathan Bencomo for the code institute, Dublin 2018</p>
