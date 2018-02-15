@@ -1,7 +1,12 @@
+#IrishDeals
+
 Django Milestone project created by Jonathan Bencomo for the Code Institute, Dublin 2018.
 
 [![Build Status](https://travis-ci.org/Bencomo/irishdeals.svg?branch=master)](https://travis-ci.org/Bencomo/irishdeals)
 
+# Demo
+
+A demo version of this project can be found [here] (https://irishdeals.herokuapp.com/)
 
 # Project guidelines
 
