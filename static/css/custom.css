@@ -8,7 +8,7 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
     border-top: 1px solid #ededed;
-    color: #A9A9A9;
+    color: #000000;
 }
 
 .icon-bar {
@@ -29,7 +29,7 @@ footer {
 
 .label-warning[href],
 .badge-warning[href] {
-    background-color:  #c67605;
+    background-color:  #000000;
 }
 
 .product {
