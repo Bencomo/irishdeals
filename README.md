@@ -4,11 +4,11 @@ Django Milestone project created by Jonathan Bencomo for the Code Institute, Dub
 
 [![Build Status](https://travis-ci.org/Bencomo/irishdeals.svg?branch=master)](https://travis-ci.org/Bencomo/irishdeals)
 
-# Demo
+## Demo
 
-A demo version of this project can be found [here] (https://irishdeals.herokuapp.com/)
+A demo version of this project can be found [here](https://irishdeals.herokuapp.com/).
 
-# Project guidelines
+## Code Institute - Project guidelines
 
  - Build a web app that fulfills some actual (or imagined) real-world need. This can be of your choosing and may be domain specific.
  - Write a README.md file for your project that explains what the project does and the need that it fulfills. It should also describe the functionality of the project, as well as the technologies used. Detail how the project was deployed and tested and if some of the work was based on other code, explain what was kept and how it was changed to fit your need. A project submitted without a README.md file will FAIL.
