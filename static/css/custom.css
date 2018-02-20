@@ -94,9 +94,9 @@ caption p {
     text-align: center;
     width: 32px;
     height: 32px;
-    border: 2px solid #1789CC;
+    border: 2px solid #555555;
     border-radius: 50%;
-    color: #1789CC;
+    color: #555555;
     margin: 2px;
 }
 
@@ -104,8 +104,8 @@ a.social-icon:hover,
 a.social-icon:active,
 a.social-icon:focus {
     text-decoration: none;
-    color: #FF930F;
-    border-color: #FF930F;
+    color: #178acc;
+    border-color: #178acc;
 }
 
 .social {
