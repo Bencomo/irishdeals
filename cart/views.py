@@ -23,7 +23,7 @@ def adjust_cart(request, id):
     """
     Quantity has to be higher than zero - if there is nothing in the cart then there's no adjustment
     """
-    if quantity > 0:
+    if int(quantity) > 0:
         cart[id] = quantity
     else:
         cart.pop(id)
