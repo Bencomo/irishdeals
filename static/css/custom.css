@@ -81,6 +81,12 @@ caption p {
     background-image: -webkit-linear-gradient(top,#000000 0,#000000 100%) !important;
 }
 
+.btn-primary {
+    background-color: #000000 !important;
+    border-color: #000000 !important;
+    background-image: -webkit-linear-gradient(top,#000000 0,#000000 100%) !important;
+}
+
 /*-------SHARE ICONS-------*/
 
 .follow-us-container {
