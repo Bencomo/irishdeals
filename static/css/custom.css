@@ -1,5 +1,5 @@
 body {
-    font-family: Consolas;
+    font-family: "Consolas";
     padding-top: 100px;
     text-align: center;
 }
@@ -14,8 +14,8 @@ footer {
 }
 
 .navbar-default {
-    background-color: #F8F8F8;
-    border-color: #E7E7E7;
+    background-color: #000000;
+    border-color: #000000;
 }
 
 .icon-bar {
