@@ -14,44 +14,11 @@ footer {
 }
 
 /* navbar */
-.navbar-default {
+
+navbar-edit {
     background-color: #000000;
     border-color: #000000;
 }
-/* Title */
-.navbar-default .navbar-brand {
-    color: #000000;
-}
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-    color: #000000;
-}
-/* Link */
-.navbar-default .navbar-nav > li > a {
-    color: #000000;
-}
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-    color: #000000;
-}
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-    color: #000000;
-    background-color: #000000;
-}
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-    color: #000000;
-    background-color: #000000;
-}
-/* Caret */
-.navbar-default .navbar-nav > .dropdown > a .caret {
-    border-top-color: #000000;
-}
-
-
 
 .icon-bar {
     background-color: #fff;
@@ -71,7 +38,7 @@ footer {
 
 .label-warning[href],
 .badge-warning[href] {
-    background-color:  #000000;
+    background-color: #000000;
 }
 
 .product {
@@ -108,18 +75,19 @@ caption p {
 }
 
 
-  /*-------SHARE ICONS-------*/
-  .follow-us-container {
+/*-------SHARE ICONS-------*/
+
+.follow-us-container {
     margin-top: 50px;
     margin-bottom: 50px;
-  }
+}
 
-  .follow-us {
+.follow-us {
     font-size: 22px;
     color: #000000;
-  }
+}
 
-  .social-icon {
+.social-icon {
     padding-top: 6px;
     font-size: 16px;
     text-align: center;
@@ -129,16 +97,16 @@ caption p {
     border-radius: 50%;
     color: #000000;
     margin: 5px;
-  }
+}
 
-  a.social-icon:hover,
-  a.social-icon:active,
-  a.social-icon:focus {
+a.social-icon:hover,
+a.social-icon:active,
+a.social-icon:focus {
     text-decoration: none;
     color: #000000;
     border-color: #000000;
-  }
+}
 
-  .social {
+.social {
     padding-top: 450px;
-  }
+}
