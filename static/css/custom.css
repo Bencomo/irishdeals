@@ -78,6 +78,7 @@ caption p {
 .btn-success {
     background-color: #000000 !important;
     border-color: #000000 !important;
+    background-image: -webkit-linear-gradient(top,#000000 0,#000000 100%) !important;
 }
 
 /*-------SHARE ICONS-------*/
@@ -108,8 +109,8 @@ a.social-icon:hover,
 a.social-icon:active,
 a.social-icon:focus {
     text-decoration: none;
-    color: #178acc;
-    border-color: #178acc;
+    color: #555555;
+    border-color: #555555;
 }
 
 .social {
