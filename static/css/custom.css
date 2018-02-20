@@ -75,6 +75,10 @@ caption p {
     min-height: 40px;
 }
 
+.btn-success {
+    background-color: #000000 !important;
+    border-color: #000000 !important;
+}
 
 /*-------SHARE ICONS-------*/
 
