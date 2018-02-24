@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect, reverse
 
 def view_cart(request):
+    """cart page that is going to be rendered"""
     return render(request, "cart.html")
     
     
@@ -22,10 +23,10 @@ def adjust_cart(request, id):
     """
     Quantity has to be higher than zero - if there is nothing in the cart then there's no adjustment
     """
-    if int(quantity) > 0:
+    if quantity > 0:
         cart[id] = quantity
     else:
-        return redirect(reverse('index'))
+        cart.pop(id)
         
     request.session['cart'] = cart
     return redirect(reverse('view_cart'))
