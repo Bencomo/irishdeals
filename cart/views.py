@@ -21,7 +21,7 @@ def adjust_cart(request, id):
     quantity = int(request.POST.get('quantity'))
     cart = request.session.get('cart', {})
     """
-    Quantity has to be higher than zero - if there is nothing in the cart then there's no adjustment
+    Quantity has to be higher than zero - if there is nothing in the cart then there's no adjustment (question for Mohamed)
     """
     if quantity > 0:
         cart[id] = quantity
