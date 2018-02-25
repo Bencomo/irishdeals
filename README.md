@@ -24,3 +24,15 @@ A demo version of this project can be found [here](https://irishdeals.herokuapp.
  - Make sure to test your project extensively. In particular, make sure that no unhandled exceptions are visible to the users, under any circumstances. Use automated Django tests wherever possible. For your JavaScript code, consider using Jasmine tests.
  - Use Git & GitHub for version control. Each new piece of functionality should be in a separate commit.
  - Deploy the final version of your code to a hosting platform such as Heroku.
+
+## Deployment instructions
+- PLease note that running this page locally without connecting to a database will result in errors. 
+- To connect to your own database, you need to update the database settings in the settings.py file.
+- After you have reconfigured your own database, type the following in the command line:
+    * $python manage.py makemigrations
+    * $python manage.py migrate
+    * $python manage.py createsuperuser
+    * $python manage.py runserver
+- Then open the app in your local host to view locally
+- Do not forget to install the requirements.txt
+ 
