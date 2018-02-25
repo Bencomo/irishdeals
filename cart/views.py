@@ -7,6 +7,10 @@ def view_cart(request):
     
 def add_to_cart(request, id):
     """Add +1 product"""
+    if len(request.POST.get('quantity')) == 0:
+        # raise error here
+        print('Error raised')
+        
     quantity=int(request.POST.get('quantity'))
     
     cart = request.session.get('cart', {})
@@ -21,7 +25,7 @@ def adjust_cart(request, id):
     quantity = int(request.POST.get('quantity'))
     cart = request.session.get('cart', {})
     """
-    Quantity has to be higher than zero - if there is nothing in the cart then there's no adjustment (question for Mohamed)
+    Quantity has to be higher than zero - if there is nothing in the cart then there's no adjustment
     """
     if quantity > 0:
         cart[id] = quantity
