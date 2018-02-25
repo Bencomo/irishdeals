@@ -7,7 +7,7 @@ def view_cart(request):
     
 def add_to_cart(request, id):
     """Add +1 product"""
-    if len(request.POST.get('quantity')) == 0:
+    if len(request.POST.get('quantity')) == "":
         # raise error here
         print('Error raised')
         
