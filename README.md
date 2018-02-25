@@ -26,7 +26,7 @@ A demo version of this project can be found [here](https://irishdeals.herokuapp.
  - Deploy the final version of your code to a hosting platform such as Heroku.
 
 ## Deployment instructions
-- PLease note that running this page locally without connecting to a database will result in errors. 
+- Please note that running this page locally without connecting to a database will result in errors. 
 - To connect to your own database, you need to update the database settings in the settings.py file.
 - After you have reconfigured your own database, type the following in the command line:
     * $python manage.py makemigrations
